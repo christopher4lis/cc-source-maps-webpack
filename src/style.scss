@@ -1,0 +1,23 @@
+$gradient: linear-gradient(135deg, #2fedd3 0%,#2899ef 100%);
+$open_sans: 'Open Sans', sans-serif;
+
+body {
+	background: $gradient;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+h1 {
+	font-family: $open_sans;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 48px;
+	color: white;
+	font-weight: 300;
+}
+
+.intro-container {
+	h1 {
+		text-align: cente;
+	}
+}
